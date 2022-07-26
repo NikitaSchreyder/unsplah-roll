@@ -1,0 +1,26 @@
+.navigation {
+    width: 935px;
+    border-bottom: 1px solid rgb(220,220,220);
+    margin-bottom: 25px;
+}
+
+.navigation__list {
+    display: flex;
+    padding: 0;
+    margin-bottom: -1px;
+}
+
+.navigation__list-item {
+    list-style: none;
+    padding: 5px 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.navigation__list-item--link {
+    text-decoration: none;
+    color: rgb(70,70,70);
+}
+
+.item-selected {
+    border-bottom: 2px solid rgb(70,70,70);
+}

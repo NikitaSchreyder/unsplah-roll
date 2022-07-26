@@ -1,0 +1,62 @@
+.user-profile {
+    display: flex;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+.user-profile__avatar {
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.user-profile__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.user-profile__details--username {
+    font-size: 20px;
+    color: rgb(70,70,70);
+    margin: 0;
+}
+
+.user-profile__details--name {
+    font-size: 25px;
+    margin: 0;
+}
+
+.user-profile__details_links {
+    display: flex;
+}
+
+.user-profile__details_links--instagram {
+    padding-left: 25px; 
+    margin-right: 20px;
+    color: rgb(70,70,70);
+    font-size: 16px;
+    text-decoration: none;
+    background: url('./images/instagram.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 1px;
+}
+.user-profile__details_links--twitter {
+    text-decoration: none;
+    color: rgb(70,70,70);
+    background: url('./images/twitter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px; 
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.user-profile__details_links--instagram:hover, 
+.user-profile__details_links--twitter:hover {
+    text-decoration: underline;
+}

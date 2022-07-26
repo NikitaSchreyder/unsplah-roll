@@ -1,0 +1,15 @@
+.authorization-btn {
+    height: 40px;
+    margin-top: 50px;
+    padding-left: 35px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background: url('./images/unsplash-logo.png');
+    background-size: contain;
+    background-color: black;
+    background-repeat: no-repeat;
+}

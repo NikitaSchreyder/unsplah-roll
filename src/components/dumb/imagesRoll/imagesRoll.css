@@ -1,0 +1,30 @@
+.images-roll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 935px;
+}
+
+.images-roll__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-roll__load-more {
+    width: 150px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.images-roll__load-more:active {
+    padding: 0;
+}

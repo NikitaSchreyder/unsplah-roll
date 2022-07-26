@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid rgb(220,220,220);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.header__content {
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.header__content--back-button {
+    display: flex;
+    font-size: 20px;
+    height: inherit;
+    padding-left: 25px;
+    text-decoration: none;
+    color: rgb(70,70,70);
+    background: url('./images/back_arrow.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 18px;  
+}
+
+.header__content--back-button:hover {
+    text-decoration: underline;
+}
+
+.header__content--logo {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(70,70,70);
+    height: inherit;
+}

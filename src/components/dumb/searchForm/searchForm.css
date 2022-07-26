@@ -1,0 +1,18 @@
+.search-form__search-input {
+    width: 250px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(220,220,220);
+    outline: none;
+}
+.search-form__search-input::placeholder {
+    text-align: center;
+}
+.search-form__search-input:focus {
+    border: 1px solid rgb(200,200,200);
+}
+
+.search-form__submit {
+    display: none;
+}
